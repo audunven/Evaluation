@@ -9,5 +9,5 @@ This repository contains material used to evaluate the semantic matching artefac
 # Evaluation Summaries
 
 This folder contains summaries from the evaluation. This includes:
-* Excel calculations
-* Charts
+* Excel spreadsheets holding evaluation scores from the matching process.
+* Charts illustrating evaluation scores.
