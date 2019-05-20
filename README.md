@@ -5,3 +5,9 @@ This repository contains material used to evaluate the semantic matching artefac
 * Ontologies related to each dataset.
 * Reference Alignments used as a baseline for the evaluation.
 * Alignments produced by the individual matching algorithms and their combination.
+
+# Evaluation Summaries
+
+This folder contains summaries from the evaluation. This includes:
+* Excel calculations
+* Charts
