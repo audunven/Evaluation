@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:alext='http://exmo.inrialpes.fr/align/ext/1.0/'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>**</type>
+  <relationClass>fr.inrialpes.exmo.align.impl.rel.A5AlgebraRelation</relationClass>
+  <onto1>
+    <Ontology rdf:about="http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf">
+      <location>http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.aifb.uni-karlsruhe.de/ontology">
+      <location>http://www.aifb.uni-karlsruhe.de/ontology</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid145">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Unpublished'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Unpublished'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid422">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Article'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Article'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid378">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Booklet'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Book'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid412">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Booklet'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Booklet'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid274">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Book'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Book'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid276">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Book'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Misc'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid275">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Book'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Publication'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid308">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Book'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Booklet'/>
+      <relation>></relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="CompoundMatcherSigmoid296">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Book'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#InBook'/>
+      <relation>></relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7371312511859256</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="CompoundMatcherSigmoid619">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#TechReport'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Report'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7371312511859256</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid43">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Manual'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Manual'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid536">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Misc'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Misc'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid636">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Conference'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Association'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="ContextSubsumptionMatcherSigmoid676">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Conference'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Event'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7799229449985066</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="LexicalSubsumptionMatcherSigmoid675">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Conference'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Meeting'/>
+      <relation><</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7546842116514711</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid658">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Conference'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Conference'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="WordEmbeddingMatcherSigmoid193">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Proceedings'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#Proceedings'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8046638165788295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell rdf:about="CompoundMatcherSigmoid206">
+      <entity1 rdf:resource='http://oaei.ontologymatching.org/2010/benchmarks/301/onto.rdf#Proceedings'/>
+      <entity2 rdf:resource='http://www.aifb.uni-karlsruhe.de/ontology#InProceedings'/>
+      <relation>></relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7371312511859256</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
